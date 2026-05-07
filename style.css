@@ -39,6 +39,19 @@ header {
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 50px 20 px;
-    background: linear-gradient(rgba(0));
+    padding: 50px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(o, 0, 0, 0.7), url );
+    background-size: cover;
+}
+
+/* Grid de Filmes */
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, nimax(200px, 17r));
+    gap: 20px;
+    padding: 40px 5%;
+}
+
+.movie-card {
+    
 }
